@@ -43,7 +43,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { CdkTableModule } from '@angular/cdk/table';
 
 import { AppComponent } from './app.component';
-// import { HomeComponent } from './home/home.component';
 import { ComHeaderComponent } from './com-header/com-header.component';
 import { ComNaviComponent } from './com-navi/com-navi.component';
 import { MainContentsComponent } from './main-contents/main-contents.component';
@@ -95,7 +94,6 @@ export class DemoMaterialModule { }
     ComHeaderComponent,
     ComNaviComponent,
     MainContentsComponent
-    // HomeComponent
   ],
   imports: [
     BrowserModule.withServerTransition({appId: 'my-app'}),
